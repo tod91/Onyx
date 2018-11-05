@@ -1,0 +1,220 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0551F64E2187441700D437F9 /* Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0551F64C2187441700D437F9 /* Application.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0551F64B2187432200D437F9 /* Onyx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Onyx.h; sourceTree = "<group>"; };
+		0551F64C2187441700D437F9 /* Application.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Application.cpp; sourceTree = "<group>"; };
+		0551F64D2187441700D437F9 /* Application.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Application.hpp; sourceTree = "<group>"; };
+		0551F64F2187442500D437F9 /* Export.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Export.h; sourceTree = "<group>"; };
+		0551F65021874D3900D437F9 /* EntryPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryPoint.h; sourceTree = "<group>"; };
+		7F390A60505A55AB69454286 /* libOnyx.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libOnyx.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		526B0B8841BA21C52FC06D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0551F6472187389200D437F9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0551F64A218741D800D437F9 /* Onyx */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0551F64A218741D800D437F9 /* Onyx */ = {
+			isa = PBXGroup;
+			children = (
+				0551F64C2187441700D437F9 /* Application.cpp */,
+				0551F64D2187441700D437F9 /* Application.hpp */,
+				0551F65021874D3900D437F9 /* EntryPoint.h */,
+				0551F64F2187442500D437F9 /* Export.h */,
+			);
+			path = Onyx;
+			sourceTree = "<group>";
+		};
+		3D175C0C35E55763597C0FE2 /* Onyx */ = {
+			isa = PBXGroup;
+			children = (
+				0551F6472187389200D437F9 /* src */,
+				0551F64B2187432200D437F9 /* Onyx.h */,
+				7BD905275010608966372DB1 /* Products */,
+			);
+			name = Onyx;
+			sourceTree = "<group>";
+		};
+		7BD905275010608966372DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F390A60505A55AB69454286 /* libOnyx.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F622609412A6B3D030D54B8 /* Onyx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708C2EF85CB4583516F33E3F /* Build configuration list for PBXNativeTarget "Onyx" */;
+			buildPhases = (
+				49482F592885378135786E04 /* Resources */,
+				66B03E434AE46B4D1FB01328 /* Sources */,
+				526B0B8841BA21C52FC06D79 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Onyx;
+			productName = Onyx;
+			productReference = 7F390A60505A55AB69454286 /* libOnyx.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Onyx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D175C0C35E55763597C0FE2 /* Onyx */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F622609412A6B3D030D54B8 /* Onyx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49482F592885378135786E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66B03E434AE46B4D1FB01328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0551F64E2187441700D437F9 /* Application.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0348244F716D6BCE59515B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = Onyx;
+			};
+			name = Release;
+		};
+		1BC93A6A46B352670E863B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = Onyx;
+			};
+			name = Debug;
+		};
+		2B6D13C258E61D244D9727FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ONYX_BUILD_DLL;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = obj/Debug;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-std=c++1y";
+			};
+			name = Debug;
+		};
+		56EC2BFD7D5D6B8B17165B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ONYX_BUILD_DLL;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = obj/Release;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-std=c++1y";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Onyx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6D13C258E61D244D9727FF /* Debug */,
+				56EC2BFD7D5D6B8B17165B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		708C2EF85CB4583516F33E3F /* Build configuration list for PBXNativeTarget "Onyx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC93A6A46B352670E863B0A /* Debug */,
+				0348244F716D6BCE59515B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
